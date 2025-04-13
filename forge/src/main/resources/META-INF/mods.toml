@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+#issueTrackerURL = ""
+license = "ARR"
+
+[[mods]]
+modId = "bmc_sky_islands"
+version = "${version}"
+displayName = "BMC Sky Islands"
+authors = "Aureljz"
+description = '''
+Modded sky islands using Biomes We've Gone blocks and features!
+'''
+#logoFile = ""
+
+[[dependencies.bmc_sky_islands]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.bmc_sky_islands]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.bmc_sky_islands]]
+modId = "architectury"
+mandatory = true
+versionRange = "[9.2.14,)"
+ordering = "AFTER"
+side = "BOTH"

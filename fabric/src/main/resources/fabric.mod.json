@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "bmc_sky_islands",
+  "version": "${version}",
+  "name": "BMC Sky Islands",
+  "description": "Modded sky islands using Biomes We've Gone blocks and features!",
+  "authors": [
+    "Aureljz"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "ARR",
+  "icon": "assets/bmc_sky_islands/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.aurelj.bmc_sky_islands.fabric.BMCSkyIslandsFabric"
+    ],
+    "client": [
+      "net.aurelj.bmc_sky_islands.fabric.client.BMCSkyIslandsFabricClient"
+    ]
+  },
+  "mixins": [
+    "bmc_sky_islands.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "architectury": ">=9.2.14",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

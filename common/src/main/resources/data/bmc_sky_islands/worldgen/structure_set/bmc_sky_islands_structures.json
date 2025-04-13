@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "bmc_sky_islands:sky_island",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 883771662,
+    "spacing": 1,
+    "separation": 0,
+    "type": "minecraft:random_spread"
+  }
+}
